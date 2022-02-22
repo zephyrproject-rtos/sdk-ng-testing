@@ -12,7 +12,7 @@ env:
 jobs:
   # Run main CI workflow
   ci:
-    uses: zephyrproject-rtos/sdk-ng/.github/workflows/ci.yml@main
+    uses: zephyrproject-rtos/sdk-ng-testing/.github/workflows/ci.yml@main
 
   # Publish release assets
   release:
