@@ -1,5 +1,7 @@
 # Notes / Changes in various releases
 
+DUMMY CHANGE
+
 ## Zephyr SDK 0.15.1
 
 - general:
