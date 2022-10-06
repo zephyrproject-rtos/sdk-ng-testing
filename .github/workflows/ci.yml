@@ -173,8 +173,10 @@ jobs:
           MATRIX_DEBUG="${{ github.event.inputs.debug }}"
         else
           # Build all for pushes and releases
-          build_host_all="y"
-          build_target_all="y"
+          # build_host_all="y"
+          build_host_linux_x86_64="y"
+          # build_target_all="y"
+          build_target_microblazeel_zephyr_elf="y"
         fi
 
         if [ "${build_host_all}" == "y" ]; then
